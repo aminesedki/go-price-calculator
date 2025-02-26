@@ -1,4 +1,4 @@
-# Project Name
+# Price calculator
 
 This project was realized as part of the **Go - The Complete Guide** course, available on [Udemy](https://www.udemy.com/share/109Zo23@Pm2gCfeLIHr3PyX5RaFy1dxKKXJ1tHkB37iJVqkjD3lUHK9phvJfiU7WT9L3VQCl/).
 
@@ -27,7 +27,7 @@ To get started with this project, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/go-price-calculator.git
+   git clone https://github.com/aminesedki/go-price-calculator.git
 
 ## Usage
 go run main.go
