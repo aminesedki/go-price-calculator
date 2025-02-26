@@ -1,4 +1,4 @@
-package smdmanager
+package cmdmanager
 
 import (
 	"fmt"

@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	// "example.com/price-calculator/cmdmanager"
 	"example.com/price-calculator/filemanager"
 	"example.com/price-calculator/prices"
 	"example.com/price-calculator/utils"
@@ -17,7 +18,7 @@ func main() {
 		fmt.Println(err)
 		return
 	}
-	// cmdm := smdmanager.New() // use this var if u want input prices and get result from cmd
+	//cmdm := cmdmanager.New() // use this var if u want input prices and get result from cmd
 	fm := filemanager.New(PRICE_FILE_PATH, fmt.Sprintf("result_%0.f.json", taxRate*100))
 	priceJob := prices.NewTaxIncludedPriceJob(fm, taxRate)
 	err = priceJob.Process()
